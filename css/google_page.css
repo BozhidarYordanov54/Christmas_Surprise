@@ -104,8 +104,6 @@ body{
 
 .history-wrapper.active{
     display: flex;
-    
-    
 }
 
 .history-wrapper .item{
