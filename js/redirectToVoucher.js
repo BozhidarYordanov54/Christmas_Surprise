@@ -1,5 +1,3 @@
-// SURPRISE4MYDARLING
-
 const form = document.getElementById('searchForm');
 
 const redirectURL = 'https://smb-vt.com/Voucher/RetrieveQRCode?code=SURPRISE4MYDARLING';

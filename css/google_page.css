@@ -87,27 +87,25 @@ body{
     border-bottom: 1px solid #52565c;
 }
 
-.search-bar + .history-wrapper{
+.history-wrapper{
     display: none;
     position: absolute;
     width: 582px;
     background: #303134;
     top: 50px;
     z-index: 5;
-}
-
-.search-bar:focus + .history-wrapper{
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    display: block;
-}
-
-.history-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
     padding: 1em;
     font-size: 16px;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.history-wrapper.active{
+    display: flex;
+    
+    
 }
 
 .history-wrapper .item{
